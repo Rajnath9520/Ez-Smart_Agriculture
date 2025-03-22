@@ -6,14 +6,7 @@ import { getDatabase } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-
 
 // Firebase Configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyBitGLWajCNnwkoeKWx_4Q_pS3hdSk1mNc",
-    authDomain: "ezcrop-7c579.firebaseapp.com",
-    databaseURL: "https://ezcrop-7c579-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "ezcrop-7c579",
-    storageBucket: "ezcrop-7c579.firebasestorage.app",
-    messagingSenderId: "20995707043",
-    appId: "1:20995707043:web:d0385c11d3ed2631fe6f16",
-    measurementId: "G-3PK0CZKV5Z",
+   //get your firebase key
     
   };
 // Initialize Firebase
