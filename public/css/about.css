@@ -169,36 +169,15 @@
     gap: 0.5rem;
   }
   
-  .logo-icon {
+  .logo-icon img{
     position: relative;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 8rem;
+    height: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  
-  .leaf-1, .leaf-2 {
-    position: absolute;
-    font-size: 1.5rem;
-    color: var(--primary-light);
-  }
-  
-  .leaf-1 {
-    transform: rotate(-12deg);
-  }
-  
-  .leaf-2 {
-    transform: rotate(12deg);
-    color: var(--primary);
-  }
-  
-  .logo-text {
-    font-size: 1.75rem;
-    font-weight: 700;
-    color: var(--white);
-  }
-  
+
   .desktop-nav {
     display: none;
   }

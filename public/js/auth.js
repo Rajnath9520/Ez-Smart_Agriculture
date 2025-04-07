@@ -1,5 +1,5 @@
 import { auth, db, rtdb } from "./firebase-config.js";
-import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
 import { setDoc, doc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 import { ref, set } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
 
@@ -131,7 +131,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
       try {
           await signInWithEmailAndPassword(auth, email, password);
-          alert('Logged in successfully!');
           authModal.style.display = 'none';
           window.location.href = '/dashboard'; 
       } catch (error) {

@@ -219,8 +219,8 @@
   
   .logo-icon {
     position: relative;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 8rem;
+    height: 7rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -773,63 +773,7 @@
     transform: scale(1.2);
   }
   
-  /* CTA Section */
-  .cta-section {
-    padding: 5rem 0;
-    background-color: var(--light);
-  }
-  
-  .cta-card {
-    background: linear-gradient(to right, var(--primary-dark), var(--primary));
-    border-radius: 1rem;
-    padding: 3rem 2rem;
-    color: var(--white);
-    box-shadow: var(--shadow-lg);
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .cta-card:before {
-    content: '';
-    position: absolute;
-    top: -50px;
-    right: -50px;
-    width: 200px;
-    height: 200px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-  }
-  
-  .cta-card:after {
-    content: '';
-    position: absolute;
-    bottom: -50px;
-    left: -50px;
-    width: 200px;
-    height: 200px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-  }
-  
-  .cta-title {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .cta-description {
-    font-size: 1.125rem;
-    opacity: 0.9;
-  }
-  
-  .cta-buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-  
+
   /* Footer */
   .footer {
     background-color: var(--darker);
